@@ -1,0 +1,36 @@
+npm create vite@latest
+npm install lucide-react
+npm install tailwindcss @tailwindcss/vite
+vite.config.ts
+
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+@import "tailwindcss";
+
+npm run dev
+
+use
+
+
+
+npm install react-router-dom
+
+BrowserRouter in main 
+
+<Routes>
+        <Route path="/" element={<Home />} />
+      </Routes> in app.jsx
+
+in navbar navlink
+
+
+👉 custom sort (name A-Z, Z-A)
+👉 multiple sort (price + rating)
+👉 backend sorting (MongoDB sort())
